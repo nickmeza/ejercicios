@@ -22,9 +22,6 @@ function designar_numero() {
         }else {
             num_nega.push(numero);
         }
-        array.forEach(element => {
-            
-        });
     });
     alert("suma de los numeros pares son: "+suma_ele_arry(num_pares));
     alert("suma de los numeros inpares son: "+suma_ele_arry(num_impares));
@@ -47,3 +44,11 @@ function suma_ele_arry(arry) {
 }
 
 alert("fin",designar_numero());
+
+function factoria(num) {
+    for (i = 1, i < num + 1; i++;){
+        s*=i;
+    }
+    return s;
+}
+alert("Factorial: ",factoria(prompt("ingrese el numero")));
