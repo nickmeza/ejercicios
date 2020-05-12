@@ -22,6 +22,9 @@ function designar_numero() {
         }else {
             num_nega.push(numero);
         }
+        array.forEach(element => {
+            
+        });
     });
     alert("suma de los numeros pares son: "+suma_ele_arry(num_pares));
     alert("suma de los numeros inpares son: "+suma_ele_arry(num_impares));
