@@ -1,5 +1,4 @@
-var nombre =prompt("Nombre: " )
-var nega=[]
+var nombre = prompt("Nombre: " )
 var edad =prompt("Edad: " )
 var salario =prompt("Salario: " )
 function calcularedad() {
